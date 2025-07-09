@@ -1,14 +1,13 @@
 
-import './App.css'
+import Footer from './components/Footer';
 
 function App() {
-  
-
   return (
     <>
-      meu app react
+      {/* conteúdo do site */}
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
