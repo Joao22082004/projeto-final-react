@@ -1,10 +1,11 @@
 
 import Footer from './components/Footer';
+import NewsletterSection from './components/Newsletter';
 
 function App() {
   return (
     <>
-      {/* conteúdo do site */}
+      <NewsletterSection/>
       <Footer />
     </>
   );
