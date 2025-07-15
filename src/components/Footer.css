@@ -1,4 +1,4 @@
-/* RESET GLOBAL */
+
 *,
 *::before,
 *::after {
@@ -18,10 +18,10 @@ body {
 .newsletter-container {
   width: 100%;
   background-color: #f2f2f2;
-  padding: 40px 0; /* padding vertical só, sem horizontal */
+  padding: 40px 0; 
   border-bottom: 1px solid #ddd;
   box-shadow: inset 0 -1px 4px rgba(0, 0, 0, 0.04);
-  margin: 0; /* remove margem */
+  margin: 0;
 }
 
 .newsletter-content {
@@ -84,7 +84,7 @@ body {
   width: 100%;
   background-color: #003366;
   color: #ffffff;
-  padding: 30px 0 20px; /* padding vertical só, sem horizontal */
+  padding: 30px 0 20px; 
   animation: fadeInFooter 0.8s ease-in-out;
   box-shadow: inset 0 1px 5px rgba(255, 255, 255, 0.1);
   margin: 0;
